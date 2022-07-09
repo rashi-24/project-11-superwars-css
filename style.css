@@ -1,4 +1,73 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin-top: 50px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+    width: 200px;
+    grid-gap: 10px;
+    height: 400px;
+}
+
+.sp,
+.ww,
+.ca,
+.gw {
+    border: 1px solid black;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 3px 3px #888888;
+    border-radius: 5%;
+    height: 200px;
+}
+
+.score {
+    width: 200px;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 70px;
+    margin-top: 0px;
+    text-align: center;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.vil {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+    width: 200px;
+    grid-gap: 10px;
+    height: 400px;
+}
+
+img {
+    height: 85px;
+    width: 85px;
+}
+
+#s1 {
+    font-size: xx-large;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+#t {
+    font-size: large;
 }
